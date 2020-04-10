@@ -1,19 +1,17 @@
 // Copyright 2018 Google Inc. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
-
-// AUTO-GENERATED CODE. DO NOT EDIT.
-
-// Package photoslibrary provides access to the Photos Library API.
+//
+// Package googlephotos provides access to the Photos Library API.
 //
 // See https://developers.google.com/photos/
 //
 // Usage example:
 //
-//   import "google.golang.org/api/photoslibrary/v1"
+//   import "lazyhacker.dev/v1/googlephotos"
 //   ...
-//   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
-package photoslibrary // import "google.golang.org/api/photoslibrary/v1"
+//   photoslibraryService, err := googlephotos.New(oauthHttpClient)
+package googlephotos // import "lazyhacker.dev/v1/googlephotos"
 
 import (
 	"bytes"
