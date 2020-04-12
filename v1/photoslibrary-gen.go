@@ -11,7 +11,7 @@
 //   import "lazyhacker.dev/v1/googlephotos"
 //   ...
 //   photoslibraryService, err := googlephotos.New(oauthHttpClient)
-package googlephotos // import "lazyhacker.dev/v1/googlephotos"
+package googlephotos // import "lazyhacker.dev/googlephotos/v1"
 
 import (
 	"bytes"
@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	gensupport "google.golang.org/api/gensupport"
 	googleapi "google.golang.org/api/googleapi"
+	gensupport "lazyhacker.dev/googlephotos/gensupport"
 )
 
 // Always reference these packages, just in case the auto-generated code
