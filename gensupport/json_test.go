@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package gensupport // import "lazyhacker.dev/gensupport"
+package gensupport // import "lazyhacker.dev/googlephotos/gensupport"
 
 import (
 	"encoding/json"
