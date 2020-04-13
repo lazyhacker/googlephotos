@@ -8,10 +8,10 @@
 //
 // Usage example:
 //
-//   import "lazyhacker.dev/v1/googlephotos"
+//   import "lazyhacker.dev/googlephotos"
 //   ...
 //   photoslibraryService, err := googlephotos.New(oauthHttpClient)
-package photoslibrary // import "lazyhacker.dev/googlephotos/photoslibrary"
+package googlephotos // import "lazyhacker.dev/googlephotos"
 
 import (
 	"bytes"
