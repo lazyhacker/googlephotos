@@ -11,7 +11,7 @@
 //   import "lazyhacker.dev/v1/googlephotos"
 //   ...
 //   photoslibraryService, err := googlephotos.New(oauthHttpClient)
-package googlephotos // import "lazyhacker.dev/googlephotos/v1"
+package photoslibrary // import "lazyhacker.dev/googlephotos/photoslibrary"
 
 import (
 	"bytes"
